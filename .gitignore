@@ -1,0 +1,13 @@
+# Ignore Jupyter Notebook checkpoints. These are auto-saved backup folders created by Jupyter
+.ipynb_checkpoints/
+
+# Python cache files. Python creates __pycache__ folders and .pyc files when it compiles code
+__pycache__/
+*.pyc
+
+# Virtual environment These folders hold your Python virtual environment, which contains dependencies. Don't upload them — instead, use a requirements.txt to track dependencies.
+.env/
+venv/
+
+# Data files (optional if files are large or sensitive). Ignores data files or outputs (e.g., simulation results, CSVs, large files). Keeps your repo clean and avoids large files in Git history. (data/ and results/)
+
